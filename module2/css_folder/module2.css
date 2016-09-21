@@ -5,7 +5,7 @@ html *
 	font-weight: bold;
 	box-sizing: border-box;
 	padding: 0px;
-	margin: 5px;
+	margin: 0px;
 }
 
 h1
@@ -19,29 +19,24 @@ h1
 h2
 {
 	font-size: 1.25em;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	padding: 1px 10px 1px 10px;
+	border: 1px solid black;
+	text-align: center;
 }
 
-.row {width: 100%;}
-
-.zone_grisee
+section
 {
 	position: relative;
 	background-color: #cccccc;
-	padding: 25px 5px 1px 5px;
+	padding: 35px 5px 5px 5px;
 	margin: 10px;
 	border: 3px solid black;
 	text-align: justify;
 }
 
-.titre_colore
-{
-	position: absolute;
-	top: -6px;
-	right: -6px;
-	padding: 1px 10px 1px 10px;
-	border: 1px solid black;
-	text-align: center;
-}
 
 .pink_title
 {
@@ -62,7 +57,7 @@ h2
 @media (min-width: 992px) {
 	.ThreeColumns {
 		float: left;
-		width: 30%;}
+		width: 31%;}
 }
 
 @media (min-width: 768px) and (max-width: 991px){
