@@ -17,8 +17,8 @@ html *
 }
 
 #logo-img{
-	background: url("https://github.com/Incognitoo/RepName/blob/gh-pages/module3/images/sailfish5.png") no-repeat;
-/*	background: url("/images/sailfish5.png") no-repeat;*/
+/*	background: url("https://github.com/Incognitoo/RepName/blob/gh-pages/module3/images/sailfish5.png") no-repeat;*/
+	background: url("../images/sailfish5.png") no-repeat;
 	background-size: 200px 100px;
 	width: 200px;
 	height: 100px;
